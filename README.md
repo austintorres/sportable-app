@@ -33,3 +33,4 @@ A full stack application where users can look up their favorite teams or athlete
 
 ## Wireframe
 ![Sportable Wireframe](https://i.imgur.com/JSZBHKB.jpg)
+![Sportable v1 Wireframe](https://i.imgur.com/RX1kMxQ.jpg)
