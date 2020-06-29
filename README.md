@@ -13,8 +13,10 @@ A full stack application where users can look up their favorite teams or athlete
 - As a user I want to be able to sign up.
 - As a user I want to be able to sign in after successfully signing up.
 - As a user I want to be able to change my password.
-- As a user I want to be able to choose between different sport leagues.
-- As a user I want to be able to add athletes or championships.
+- As a user I want to be able to add different leagues.
+- As a user I want to be able to add a sport.
+- As a user I want to be able to add a sport name.
+- As a user I want to be able to add a description to my sport (team, athlete, record, championships, etc.).
 - As a user I wanto to be able to successfully sign out.
 
 #### Technologies Used
