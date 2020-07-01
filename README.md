@@ -4,7 +4,7 @@ A full stack application where users can look up their favorite teams or athlete
 
 ## Important Links
 
-- Links will go here
+- [Sportable Front End](https://github.com/austintorres/sportable-client)
 
 ## Planning Story
 
