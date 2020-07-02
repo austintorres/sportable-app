@@ -16,8 +16,8 @@ const router = express.Router()
 
 // INDEX
 // GET /leagues
-router.get('/leagues', (req, res, next) => {
-  League.find()
+router.get('/leagues', requireToken, (req, res, next) => {
+  League.find({'owner': req.user.id})
     .populate('owner')
     .then(leagues => {
       return leagues.map(league => league.toObject())
