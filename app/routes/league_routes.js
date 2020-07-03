@@ -18,7 +18,6 @@ const router = express.Router()
 // GET /leagues
 router.get('/leagues', requireToken, (req, res, next) => {
   League.find({'owner': req.user.id})
-    .populate('owner')
     .then(leagues => {
       return leagues.map(league => league.toObject())
     })
@@ -30,7 +29,6 @@ router.get('/leagues', requireToken, (req, res, next) => {
 // GET /leagues/4wrewe4546
 router.get('/leagues/:id', requireToken, (req, res, next) => {
   League.findById(req.params.id)
-    .populate('owner')
     .then(handle404)
     .then(league => res.status(200).json({ league: league.toObject() }))
     .catch(next)
@@ -54,7 +52,6 @@ router.patch('/leagues/:id', requireToken, removeBlanks, (req, res, next) => {
   delete req.body.league.owner
 
   League.findById(req.params.id)
-    .populate('owner')
     .then(handle404)
     .then(league => {
       requireOwnership(req, league)
