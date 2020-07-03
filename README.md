@@ -24,10 +24,7 @@ A full stack application where users can look up their favorite teams or athlete
 - Mongoose
 - MongoDB
 - Express
-- Handlebars
-- HTML/CSS
-- Node
-- JavaScript
+- Node.js
 
 #### Unsolved Problems
 
