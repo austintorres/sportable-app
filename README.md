@@ -4,7 +4,9 @@ A full stack application where users can look up their favorite teams or athlete
 
 ## Important Links
 
+- [Sportable Deployed API](https://stark-sea-97091.herokuapp.com/)
 - [Sportable Front End](https://github.com/austintorres/sportable-client)
+- [Sportable Deployed Front End](austintorres.github.io/sportable-client/)
 
 ## Planning Story
 
@@ -17,7 +19,7 @@ A full stack application where users can look up their favorite teams or athlete
 - As a user I want to be able to add a sport.
 - As a user I want to be able to add a sport name.
 - As a user I want to be able to add a description to my sport (team, athlete, record, championships, etc.).
-- As a user I wanto to be able to successfully sign out.
+- As a user I want to be able to successfully sign out.
 
 #### Technologies Used
 
@@ -28,7 +30,7 @@ A full stack application where users can look up their favorite teams or athlete
 
 #### Unsolved Problems
 
--
+- **Version 2** - Team Schema will be added.
 
 ## Wireframe
 ![Sportable Wireframe](https://i.imgur.com/JSZBHKB.jpg)
