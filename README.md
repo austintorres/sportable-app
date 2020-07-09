@@ -6,7 +6,7 @@ A full stack application where users can look up their favorite teams or athlete
 
 - [Sportable Deployed API](https://stark-sea-97091.herokuapp.com/)
 - [Sportable Front End](https://github.com/austintorres/sportable-client)
-- [Sportable Deployed Front End](austintorres.github.io/sportable-client/)
+- [Sportable Deployed Front End](https://austintorres.github.io/sportable-client/)
 
 ## Planning Story
 
